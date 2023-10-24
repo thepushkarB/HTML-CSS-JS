@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding: 30px 0;
+}
+
+.cubeContainer {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 125px;
+}
+/* .boxesLine {
+    border: solid 3px wheat;
+} */
+.box {
+    width: 90px;
+    height: 90px;
+    background: #262626;
+    border-radius: 9px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.circle {
+    color: white;
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+
+.cross, .circle {
+    display: none;
+}
+
+.box:hover {
+    cursor: pointer;
+    background: #404040;
+}
