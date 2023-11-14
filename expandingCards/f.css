@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'MyFont';
-    src: url('/expandingCards/ringbearer/RINGM___.TTF');
-    src: url('path/to/font/file.woff') format('woff');
-    src: url('path/to/font/file.ttf') format('truetype');
-    src: url('path/to/font/file.svg') format('svg');
-  }
-  
